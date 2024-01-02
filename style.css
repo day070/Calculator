@@ -29,4 +29,22 @@
   font-size: 22px;
   margin: 3px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: black;
+  color: white;
+}
+
+.equal {
+  height: 110px;
+}
+.equal:active {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.zero {
+  width: 110px;
 }
