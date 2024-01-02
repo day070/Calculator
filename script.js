@@ -14,7 +14,8 @@ function equal() {
   var x = document.form.textView.value;
   if (x == "") {
     alert("masukan angka terlebih dahulu");
-  } else {
+  }
+  if (x) {
     document.form.textView.value = eval(x);
   }
 }
